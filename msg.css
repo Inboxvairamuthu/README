@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  background:#fff;
+  color:#4caf50;
+  line-height:1.6;
+  font-family: sans-serif;
+  padding:75px;
+  padding-left: 10px;
+}
+
+.container{
+  max-width:1170px;
+  max-height: 100px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  padding:100px;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+
+}
+
+.wrapper > *{
+  padding: 100px;
+  
+}
